@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }))
 
 app.listen(8080,()=>console.log("server started"))
 
-const users = [
+let users = [
     {name:"poojitha",email:"pooji@gmail.com",password:1234},
     {name:"sonu",email:"sonu@gmail.com",password:1234},
     {name:"sai",email:"sai@gmail.com",password:1234},
