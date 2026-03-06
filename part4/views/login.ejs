@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <h2>Login Form</h2>
+    <% if (error) { %>
+<div><%= error  %></div>
+  <% } %>
     <form action="/login" method="POST">
       <p><input type="text" name="email" placeholder="Email" /></p>
       <p><input type="password" name="password" placeholder="Password" /></p>
